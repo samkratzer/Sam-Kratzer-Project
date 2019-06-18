@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<!--
+	Creator: Sam Kratzer
+	Date created: 6/15/2019
+	Date last modified: 6/18/2019
+-->
+
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CDN link copied from https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="styles/restaurantStyles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		#menu {
+			background-color: #c1b4a6;
+			color: #2a3d45;
+			padding: 10px;
+		}
+
+		p.tagline {
+			font-size: 15px;
+			font-style: italic;
+			text-align: center;
+		}
+
+		p.description {
+			height: 100px;
+			text-align: justify;
+		}
+
+		p.price {
+			font-weight: 550;
+			text-align: center;
+		}
+
+		h4 {
+			height: 80px;
+			text-align: center;
+		}
+
+		table {
+			border: none;
+			margin: auto;
+			padding: 10px;
+		}
+	</style>
+
+	<title>Menu</title>
+</head>
+
+<body>
+	<div class="container">
+		<header class="jumbotron">
+			<h1 class="text-center">Sam's Grill</h1>
+			<br />
+			<h3 class="lead text-center">Classic American Fare</h3>
+		</header>
+
+		<nav>
+			<a class="btn" href="index.html">Home</a>
+			<a class="btn" href="menu.html">Menu</a>
+			<a class="btn" href="contact.html">Contact Us</a>
+		</nav>
+
+		<div id="menu">
+			<div class="row">
+				<div class="col-md-4" id="burger-and-fries">
+					<h4>Burger and Fries</h4>
+					<p class="tagline">An American Classic</p>
+					<p class="description">Your choice - with or without cheese. Pickle, onion, tomato, and lettuce. Served with our famous thick cut french fries.</p>
+					<p class="price">$7.95</p>
+				</div>
+
+				<div class="col-md-4" id="hot-dog-and-chips">
+					<h4>Hot Dog and Chips</h4>
+					<p class="tagline">A Summer Classic</p>
+					<p class="description">Your choice - white or wheat bun. Relish, mustard, and ketchup. Served with our house-made chips.</p>
+					<p class="price">$7.95</p>
+				</div>
+
+				<div class="col-md-4" id="italian-sausage-and-peppers">
+					<h4>Italian Sausage and Peppers</h4>
+					<p class="tagline">An All-Time Favorite</p>
+					<p class="description">Your choice - mild or spicy Cole Slaw. Served with garlic mashers.</p>
+					<p class="price">$10.95</p>
+				</div>
+			</div>
+
+			<br />
+
+			<div class="row">
+				<div class="col-md-4" id="tenderloin-sandwich-and-chips">
+					<h4>Tenderloin Sandwich and Chips</h4>
+					<p class="tagline">Really Hits the Spot</p>
+					<p class="description">Plain or Sesame Seed Bun. Served with our house-made chips.</p>
+					<p class="price">$8.95</p>
+				</div>
+
+				<div class="col-md-4" id="house-salad">
+					<h4>House Salad</h4>
+					<p class="tagline">On the Lighter Side</p>
+					<p class="description">Your choice - with or without cheese. Iceberg lettuce, tomatoes, peppers. Thousand Island or Ranch Dressing. Served with a dinner roll.</p>
+					<p class="price">$6.95</p>
+				</div>
+
+				<div class="col-md-4" id="brisket-sandwich-and-fries">
+					<h4>Brisket Sandwich and Fries</h4>
+					<p class="tagline">A Taste of Texas</p>
+					<p class="description">Smoked Brisket on thick-cut Texas Toast. Cole Slaw. Served with our famous thick-cut french fries.</p>
+					<p class="price">$7.95</p>
+				</div>
+			</div>
+
+			<hr />
+
+			<div class="row">
+				<table class="table-striped col-11">
+					<tr>
+						<th>Beverages</th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<td>Root Beer</td>
+						<td class="price">$3.00</td>
+					</tr>
+
+					<tr>
+						<td>Bottled Water</td>
+						<td class="price">$1.25</td>
+					</tr>
+
+					<tr>
+						<td>Lemonade</td>
+						<td class="price">$1.00</td>
+					</tr>
+
+					<tr>
+						<td>Iced Tea</td>
+						<td class="price">$1.25</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<footer>
+			<p class="text-center lead">123 Main Street, Anytown, MN 12345</p>
+			<p class="text-center lead">555-889-8900</p>
+			<p class="text-center lead">&copy; 2019 Sam Kratzer. All rights reserved. Background image by <a href="https://pixabay.com/users/Goumbik-3752482/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2879265">Goumbik</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2879265">Pixabay.
+		</footer>
+	</div>
+
+	<!-- CDN links copied from https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Popper.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+</body>
+</html>

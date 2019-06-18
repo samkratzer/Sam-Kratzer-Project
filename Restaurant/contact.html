@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<!--
+	Creator: Sam Kratzer
+	Date created: 6/15/2019
+	Date last modified: 6/18/2019
+-->
+
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CDN link copied from https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="styles/restaurantStyles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		.required {
+			font-weight: bolder
+		}
+
+		.form-group, .form-check {
+			margin: auto;
+			line-height: 18px;
+			padding-bottom: 10px;
+
+		}
+
+		.submit-button:hover {
+			background-color: #d3d3d3;
+			font-weight: bold;
+		}
+
+		legend, label {
+			font-size: 16px;
+			font-weight: 575;
+			font: "helvetica";
+		}
+	</style>
+
+	<title>Contact Us</title>
+</head>
+
+<body>
+	<div class="container">
+		<header class="jumbotron">
+			<h1 class="text-center">Sam's Grill</h1>
+			<br />
+			<h3 class="lead text-center">Classic American Fare</h3>
+		</header>
+
+		<nav>
+			<a class="btn" href="index.html">Home</a>
+			<a class="btn" href="menu.html">Menu</a>
+			<a class="btn" href="contact.html">Contact Us</a>
+		</nav>
+
+		<form name="form" action="submit.html" method="POST">
+			<div class="form-group col-md-6">	
+				<label class="required" for="name">Name (required):</label>
+				<input class="form-control" type="text" name="name" id="name" placeholder="Name"><br />
+
+				<label class="required" for="email">Email (required):</label>
+				<input class="form-control" type="email" name="email" id="email" placeholder="Email"><br />
+
+				<label for="phone">Phone:</label>
+				<input class="form-control" type="text" name="phone" id="phone" placeholder="Phone"><br />
+
+				<label class="required" for="reason">Reason for Inquiry (required):</label>
+				<select name="reason" class="form-control">
+					<option value="catering" selected>Catering</option>
+					<option value="private-party">Private Party</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+				</select><br />
+			</div>
+
+			<div class="form-group col-md-6">
+				<legend>Have you been to the restaurant?</legend>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" id="no" name="answer" value="NO" checked>
+					<label class="form-check-label" for="no">No</label>
+				</div>
+
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" id="yes" name="answer" value="YES">
+					<label class="form-check-label" for="yes">Yes</label><br />
+				</div>
+				<br />
+			</div>
+
+			<div class="form-group col-md-6">
+				<legend>Best days to contact you:</legend>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" id="m" name="days" value="M">
+					<label class="form-check-label" for="m">M</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" id="t" name="days" value="T">
+					<label class="form-check-label" for="t">T</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" id="w" name="days" value="W">
+					<label class="form-check-label" for="w">W</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" id="th" name="days" value="Th">
+					<label class="form-check-label" for="th">Th</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" id="f" name="days" value="F">
+					<label class="form-check-label" for="f">F</label>
+				</div>
+			</div>
+
+			<div class="form-group col-md-6">
+				<label for="additional-information">Additional Information:</label><br/>
+				<textarea class="form-control" id="additional-information" placeholder="Please describe your request in a few sentences."></textarea>
+			</div>
+
+			<br />
+
+			<div class="form-group col-md-3">
+			<input type="submit" class="form-control submit-button" value="Send Request"><br />
+			</div>
+		</form>
+
+		<footer>
+			<p class="text-center lead">123 Main Street, Anytown, MN 12345</p>
+			<p class="text-center lead">555-889-8900</p>
+			<p class="text-center lead">&copy; 2019 Sam Kratzer. All rights reserved. Background image by <a href="https://pixabay.com/users/Goumbik-3752482/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2879265">Goumbik</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2879265">Pixabay.
+		</footer>
+	</div>
+
+	<!-- CDN links copied from https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Popper.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+</body>
+</html>

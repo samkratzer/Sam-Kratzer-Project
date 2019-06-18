@@ -1,0 +1,76 @@
+/*
+	Creator: Sam Kratzer
+	Date created: 6/17/2019
+	Date last modified: 6/18/2019
+*/
+
+body {
+	background-color: #ffffff;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; /* Center the image */
+ 	background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.jumbotron {
+	background-color: #c1b4a6 !important;
+	color: #2a3d45;
+	opacity: 0.95;
+}
+
+.jumbotron h1 {
+	font-family: "Kaushan Script", cursive;
+	font-size: 80px;
+}
+
+footer .lead {
+	font-size: 15px;
+	line-height: 1.1;
+	padding-bottom: 0px;
+}
+
+footer p {
+	padding: 0px;
+	margin: 8px;
+}
+
+footer {
+	background-color: #c1b4a6;
+	color: #2a3d45;
+	padding-top: 15px;
+	padding-bottom: 1px;
+	width: 100%;
+	margin-top: 24px;
+	opacity: 0.95;
+}
+
+.container {
+	opacity: 0.95;
+}
+
+nav {
+	padding-top: 6px;
+	padding-bottom: 24px;
+	text-align: center;
+	opacity: 0.95;
+}
+
+nav .btn {
+	background-color: #c1b4a6;
+	color: #2a3d45;
+}
+
+nav .btn:hover {
+	background-color: #2a3d45;
+	color: #c1b4a6;
+	font-weight: bold;
+}
+
+nav .btn:active {
+
+}
+
+nav .btn:visited {
+	color: #996b66;
+}
