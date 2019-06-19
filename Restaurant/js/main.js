@@ -52,7 +52,3 @@ function validateForm(){
 	resetForm();
 	return false;
 }
-
-function remindJs(){
-
-}
